@@ -3,11 +3,11 @@
 #include "KorpoWorkers.h"
 #include <iostream>
 
-class Employee; // Forward declaration
+class Employee; // Forward declaration is needed
 
 class Manager : public KorpoWorkers {
 private:
-    int numSubordinates; // Liczba podw³adnych
+    int numSubordinates;
 
 public:
     Manager(std::string name, std::string lastname, double salary, int podwladni);

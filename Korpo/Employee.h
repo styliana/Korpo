@@ -1,7 +1,7 @@
 #pragma once
 #include "KorpoWorkers.h"
 
-class Manager; // Forward declaration
+class Manager; // Forward declaration needed
 
 class Employee : public KorpoWorkers {
 public:
