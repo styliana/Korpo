@@ -1,7 +1,7 @@
 #include "KorpoWorkers.h"
 #include <iostream>
 
-// Implementation of the constructor
+// odc constructor
 KorpoWorkers::KorpoWorkers(std::string name, std::string lastname, double salary)
     : name(name), lastname(lastname), salary(salary) {}
 
@@ -17,5 +17,5 @@ void KorpoWorkers::changeSalary(double newSalary) {
 
 // Implementation of the getSalary function
 double KorpoWorkers::getSalary() const {
-    return salary; // Return the salary value
+    return salary; // Returns the salary value
 }

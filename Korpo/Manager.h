@@ -14,13 +14,13 @@ public:
 
     void IntroduceYourself() const override;
 
-    // Funkcja dodaj¹ca podw³adnego
+    // Function adding subordinate
     void addSubordinate();
 
-    // Funkcja usuwaj¹ca podw³adnego
+    // Function deleting subordinate
     void deleteSubordinate();
 
-    // Przyjacielska funkcja zmieniaj¹ca wynagrodzenie pracownika
+    // Friend function changing employee's salary
     friend void changeSalary(Manager& manager, Employee& employee, double newSalary);
     double GetNewSalaryFromUser();
 };

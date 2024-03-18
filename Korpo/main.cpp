@@ -60,3 +60,31 @@ int main() {
 
     return 0;
 }
+
+/*
+* 
+Welcome to the corporation!
+
+The manager has 10 subordinates by default.
+Do you want to add a subordinate ? (yes / no) : yes
+Do you want to delete a subordinate ? (yes / no) : no
+---------------------------------------------- -
+Manager :
+Hello, I'm Jakub Dolina. My salary is $5000.
+Number of subordinates : 11
+
+Employee :
+Hello, I'm Jasiu Dec. My salary is $3000.
+
+Intern :
+Hello, I'm Micha³ Koroñski. My salary is $0.
+---------------------------------------------- -
+Hi manager!Give a new salary for a regular employee : 4500
+
+Employee :
+Hello, I'm Jasiu Dec. My salary is $4500.
+
+
+A : \jipp2\Korpo\x64\Debug\Korpo.exe(proces 4804) zakoñczono z kodem 0.
+Naciœnij dowolny klawisz, aby zamkn¹æ to okno...'
+*/

@@ -1,7 +1,8 @@
 #pragma once
 
-#include <string> // Include necessary header file
+#include <string>
 
+// those are essential here:
 class Manager; // Forward declaration of Manager class
 class Employee; // Forward declaration of Employee class
 
@@ -9,7 +10,7 @@ class KorpoWorkers {
 protected:
     std::string name;
     std::string lastname;
-    double salary; // Changed to double to match Manager's constructor
+    double salary;
 
 public:
     KorpoWorkers(std::string name, std::string lastname, double salary);
@@ -23,7 +24,6 @@ public:
     double getSalary() const;
 
 
-    // Friend function declaration
+    // Friend function declaration (for manager class)
     friend void changeSalary(Manager& manager, Employee& employee, double newSalary);
-    //    double GetNewSalaryFromUser();
 };

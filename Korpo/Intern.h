@@ -3,5 +3,5 @@
 
 class Intern : public KorpoWorkers {
 public:
-    Intern(std::string name, std::string lastname);
+    Intern(std::string name, std::string lastname); //Has no salary - default: 0
 };
